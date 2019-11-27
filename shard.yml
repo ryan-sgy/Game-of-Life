@@ -1,0 +1,17 @@
+name: gameoflife
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  gameoflife:
+    main: src/gameoflife.cr
+
+crystal: 0.31.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal

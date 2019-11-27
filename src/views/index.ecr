@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8" />
+    <title>The Game of Life</title>
+    <link rel="stylesheet" href="/css/life.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+</head>
+<body>
+
+<header id="home">
+		<div class="container">
+			<div class="header d-lg-flex justify-content-between align-items-center">
+				<div id="logo">
+                    <a href="">Conway's Game of Life</a>
+				</div>
+			</div>
+		</div>
+</header>
+
+<section class="single_grid_w3_main align-w3-abt" id="about">
+		<div class="container">
+			<div class="wthree_pvt_title text-left">
+				<h4 class="w3pvt-title">The Game</h4>
+				<p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.</p>
+				<div id="gridContainer"></div>
+               <div class="controls">
+                               <button id="start"><span>Start</span></button>
+                               <button id="clear"><span>Clear</span></button>
+                               <button id="random"><span>Random</span></button>
+                               <button id="glider"><span>Glider</span></button>
+                               <button id="acorn"><span>Acorn</span></button>
+                               <button id="explore"><span>Pulsar</span></button>
+                               <button id="alive"><span>Still lifes</span></button>
+                               <button id="row"><span>50-Row</span></button>
+                               <button id="gun"><span>Gosper Glider Gun</span></button>
+                               </div>
+             <div class="wthree_pvt_title text-left">
+           				<h4 class="w3pvt-title">The Rules</h4>
+           				<h6>For a space that is 'populated':</h6>
+                           <p>Each cell with one or no neighbors dies, as if by solitude.</p>
+                           <p>Each cell with four or more neighbors dies, as if by overpopulation.</p>
+                           <p>Each cell with two or three neighbors survives.</p>
+                           <h6>For a space that is 'empty' or 'unpopulated'</h6>
+                           <p>Each cell with three neighbors becomes populated.</p></div>
+                       <div class="wthree_pvt_title text-left">
+           				<h4 class="w3pvt-title">The Control</h4>
+                           <p>Choose a option from the button or make one yourself by clicking on the cells with a mouse.Several new generations of cells (corresponding to one iteration of the rules) is initiated by the 'Start' button.</p>
+                       </div>
+		</div>
+        </div>
+	</section>
+
+<div class="cpy-right text-center bg-theme">
+		<p class="text-wh">Crystal Demo: Hao Zheng, Luming Wang, Chengchao Fang, Guangyuan Shen</p>
+	</div>
+
+<script src="/js/code.js"></script>
+
+</body>
+</html>
